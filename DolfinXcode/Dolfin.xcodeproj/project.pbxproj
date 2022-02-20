@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F1B354327A1C84C00D2DF91 /* NewProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1B354227A1C84C00D2DF91 /* NewProfileView.swift */; };
+		6F1BCEF027A2CB67007162E8 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1BCEEF27A2CB67007162E8 /* SignUpView.swift */; };
+		6F2049AD27A8A75200063DC3 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F2049AC27A8A75200063DC3 /* Launch Screen.storyboard */; };
+		6F2049AF27A9EA6E00063DC3 /* ItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2049AE27A9EA6E00063DC3 /* ItemsView.swift */; };
+		6F30F6652788109B00588D29 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F6582788109B00588D29 /* Poppins-Italic.ttf */; };
+		6F30F6662788109B00588D29 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F6592788109B00588D29 /* Poppins-Thin.ttf */; };
+		6F30F6672788109B00588D29 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F65A2788109B00588D29 /* Poppins-SemiBold.ttf */; };
+		6F30F6682788109B00588D29 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F65B2788109B00588D29 /* Poppins-ExtraLight.ttf */; };
+		6F30F6692788109B00588D29 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F65C2788109B00588D29 /* Poppins-Medium.ttf */; };
+		6F30F66A2788109B00588D29 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F65D2788109B00588D29 /* Poppins-MediumItalic.ttf */; };
+		6F30F66B2788109B00588D29 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F65E2788109B00588D29 /* Poppins-Light.ttf */; };
+		6F30F66C2788109B00588D29 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F65F2788109B00588D29 /* Poppins-ThinItalic.ttf */; };
+		6F30F66D2788109B00588D29 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F6602788109B00588D29 /* Poppins-ExtraBoldItalic.ttf */; };
+		6F30F66E2788109B00588D29 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F6612788109B00588D29 /* Poppins-Regular.ttf */; };
+		6F30F66F2788109B00588D29 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F6622788109B00588D29 /* Poppins-SemiBoldItalic.ttf */; };
+		6F30F6702788109B00588D29 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F6632788109B00588D29 /* Poppins-LightItalic.ttf */; };
+		6F30F6712788109B00588D29 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F6642788109B00588D29 /* Poppins-ExtraLightItalic.ttf */; };
+		6F30F67627887F2300588D29 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F30F67527887F2300588D29 /* LogInView.swift */; };
+		6F436AB6278EB41600B0EDB4 /* AddNewGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F436AB5278EB41600B0EDB4 /* AddNewGoal.swift */; };
+		6F436AB8278EB84900B0EDB4 /* NewGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F436AB7278EB84900B0EDB4 /* NewGoalView.swift */; };
+		6F635D0227A347570092271E /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F635D0127A347570092271E /* NewTaskView.swift */; };
+		6F6D825827BD4F5400ED9CBA /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F65A2788109B00588D29 /* Poppins-SemiBold.ttf */; };
+		6F6D825927BD4F5800ED9CBA /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F30F65A2788109B00588D29 /* Poppins-SemiBold.ttf */; };
+		6FD4973A277C82E5005E01CE /* DolfinApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD49739277C82E5005E01CE /* DolfinApp.swift */; };
+		6FD4973C277C82E5005E01CE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4973B277C82E5005E01CE /* ContentView.swift */; };
+		6FD4973E277C82E6005E01CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD4973D277C82E6005E01CE /* Assets.xcassets */; };
+		6FD49741277C82E6005E01CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD49740277C82E6005E01CE /* Preview Assets.xcassets */; };
+		6FD4974B277C82E6005E01CE /* Thesis_1ST_PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4974A277C82E6005E01CE /* Thesis_1ST_PrototypeTests.swift */; };
+		6FD4979A27802046005E01CE /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4979927802046005E01CE /* ProfileView.swift */; };
+		6FD4979C27802055005E01CE /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4979B27802055005E01CE /* GoalsView.swift */; };
+		6FD4979E27802063005E01CE /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4979D27802063005E01CE /* TasksView.swift */; };
+		6FD497A027802070005E01CE /* VaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD4979F27802070005E01CE /* VaultsView.swift */; };
+		6FDDF0CD27A5A30A006FBFEA /* BalanceEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDF0CC27A5A30A006FBFEA /* BalanceEditView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6FD49747277C82E6005E01CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FD4972E277C82E5005E01CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD49735277C82E5005E01CE;
+			remoteInfo = "Thesis 1ST Prototype";
+		};
+		6FD49751277C82E6005E01CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6FD4972E277C82E5005E01CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FD49735277C82E5005E01CE;
+			remoteInfo = "Thesis 1ST Prototype";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6F1B354227A1C84C00D2DF91 /* NewProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProfileView.swift; sourceTree = "<group>"; };
+		6F1BCEEF27A2CB67007162E8 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		6F2049AC27A8A75200063DC3 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		6F2049AE27A9EA6E00063DC3 /* ItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsView.swift; sourceTree = "<group>"; };
+		6F30F6582788109B00588D29 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		6F30F6592788109B00588D29 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		6F30F65A2788109B00588D29 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		6F30F65B2788109B00588D29 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6F30F65C2788109B00588D29 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		6F30F65D2788109B00588D29 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		6F30F65E2788109B00588D29 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		6F30F65F2788109B00588D29 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		6F30F6602788109B00588D29 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6F30F6612788109B00588D29 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		6F30F6622788109B00588D29 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		6F30F6632788109B00588D29 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		6F30F6642788109B00588D29 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		6F30F6722788115700588D29 /* Thesis-1ST-Prototype-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Thesis-1ST-Prototype-Info.plist"; sourceTree = SOURCE_ROOT; };
+		6F30F67527887F2300588D29 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		6F436AB5278EB41600B0EDB4 /* AddNewGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewGoal.swift; sourceTree = "<group>"; };
+		6F436AB7278EB84900B0EDB4 /* NewGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGoalView.swift; sourceTree = "<group>"; };
+		6F635D0127A347570092271E /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		6FD49736277C82E5005E01CE /* Dolfin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dolfin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD49739277C82E5005E01CE /* DolfinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DolfinApp.swift; sourceTree = "<group>"; };
+		6FD4973B277C82E5005E01CE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6FD4973D277C82E6005E01CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FD49740277C82E6005E01CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6FD49746277C82E6005E01CE /* DolfinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolfinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD4974A277C82E6005E01CE /* Thesis_1ST_PrototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thesis_1ST_PrototypeTests.swift; sourceTree = "<group>"; };
+		6FD49750277C82E6005E01CE /* DolfinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DolfinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FD4979927802046005E01CE /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6FD4979B27802055005E01CE /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		6FD4979D27802063005E01CE /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		6FD4979F27802070005E01CE /* VaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaultsView.swift; sourceTree = "<group>"; };
+		6FDDF0CC27A5A30A006FBFEA /* BalanceEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceEditView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FD49733277C82E5005E01CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD49743277C82E6005E01CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD4974D277C82E6005E01CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F9E5E6C27A32E2F00CBE0FE /* Sign in and Log in */ = {
+			isa = PBXGroup;
+			children = (
+				6F30F67527887F2300588D29 /* LogInView.swift */,
+				6F1BCEEF27A2CB67007162E8 /* SignUpView.swift */,
+				6F2049AE27A9EA6E00063DC3 /* ItemsView.swift */,
+			);
+			path = "Sign in and Log in";
+			sourceTree = "<group>";
+		};
+		6F9E5E6D27A32E5900CBE0FE /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FD49739277C82E5005E01CE /* DolfinApp.swift */,
+				6FD4979927802046005E01CE /* ProfileView.swift */,
+				6F1B354227A1C84C00D2DF91 /* NewProfileView.swift */,
+				6FD4979B27802055005E01CE /* GoalsView.swift */,
+				6FD4979D27802063005E01CE /* TasksView.swift */,
+				6FD4979F27802070005E01CE /* VaultsView.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		6F9E5E6E27A32E7400CBE0FE /* Add New Windows */ = {
+			isa = PBXGroup;
+			children = (
+				6F436AB7278EB84900B0EDB4 /* NewGoalView.swift */,
+				6F635D0127A347570092271E /* NewTaskView.swift */,
+				6FDDF0CC27A5A30A006FBFEA /* BalanceEditView.swift */,
+			);
+			path = "Add New Windows";
+			sourceTree = "<group>";
+		};
+		6FD4972D277C82E5005E01CE = {
+			isa = PBXGroup;
+			children = (
+				6FD4973B277C82E5005E01CE /* ContentView.swift */,
+				6F9E5E6D27A32E5900CBE0FE /* Main Views */,
+				6F9E5E6E27A32E7400CBE0FE /* Add New Windows */,
+				6F9E5E6C27A32E2F00CBE0FE /* Sign in and Log in */,
+				6FD49738277C82E5005E01CE /* Thesis 1ST Prototype */,
+				6FD49749277C82E6005E01CE /* Thesis 1ST PrototypeTests */,
+				6FD49737277C82E5005E01CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FD49737277C82E5005E01CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FD49736277C82E5005E01CE /* Dolfin.app */,
+				6FD49746277C82E6005E01CE /* DolfinTests.xctest */,
+				6FD49750277C82E6005E01CE /* DolfinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FD49738277C82E5005E01CE /* Thesis 1ST Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				6F30F6722788115700588D29 /* Thesis-1ST-Prototype-Info.plist */,
+				6F436AB5278EB41600B0EDB4 /* AddNewGoal.swift */,
+				6FD4973D277C82E6005E01CE /* Assets.xcassets */,
+				6F2049AC27A8A75200063DC3 /* Launch Screen.storyboard */,
+				6FD4973F277C82E6005E01CE /* Preview Content */,
+			);
+			path = "Thesis 1ST Prototype";
+			sourceTree = "<group>";
+		};
+		6FD4973F277C82E6005E01CE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6FD49740277C82E6005E01CE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6FD49749277C82E6005E01CE /* Thesis 1ST PrototypeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6F30F6602788109B00588D29 /* Poppins-ExtraBoldItalic.ttf */,
+				6F30F65B2788109B00588D29 /* Poppins-ExtraLight.ttf */,
+				6F30F6642788109B00588D29 /* Poppins-ExtraLightItalic.ttf */,
+				6F30F6582788109B00588D29 /* Poppins-Italic.ttf */,
+				6F30F65E2788109B00588D29 /* Poppins-Light.ttf */,
+				6F30F6632788109B00588D29 /* Poppins-LightItalic.ttf */,
+				6F30F65C2788109B00588D29 /* Poppins-Medium.ttf */,
+				6F30F65D2788109B00588D29 /* Poppins-MediumItalic.ttf */,
+				6F30F6612788109B00588D29 /* Poppins-Regular.ttf */,
+				6F30F65A2788109B00588D29 /* Poppins-SemiBold.ttf */,
+				6F30F6622788109B00588D29 /* Poppins-SemiBoldItalic.ttf */,
+				6F30F6592788109B00588D29 /* Poppins-Thin.ttf */,
+				6F30F65F2788109B00588D29 /* Poppins-ThinItalic.ttf */,
+				6FD4974A277C82E6005E01CE /* Thesis_1ST_PrototypeTests.swift */,
+			);
+			path = "Thesis 1ST PrototypeTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FD49735277C82E5005E01CE /* Dolfin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD4975A277C82E6005E01CE /* Build configuration list for PBXNativeTarget "Dolfin" */;
+			buildPhases = (
+				6FD49732277C82E5005E01CE /* Sources */,
+				6FD49733277C82E5005E01CE /* Frameworks */,
+				6FD49734277C82E5005E01CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dolfin;
+			productName = "Thesis 1ST Prototype";
+			productReference = 6FD49736277C82E5005E01CE /* Dolfin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6FD49745277C82E6005E01CE /* DolfinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD4975D277C82E6005E01CE /* Build configuration list for PBXNativeTarget "DolfinTests" */;
+			buildPhases = (
+				6FD49742277C82E6005E01CE /* Sources */,
+				6FD49743277C82E6005E01CE /* Frameworks */,
+				6FD49744277C82E6005E01CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD49748277C82E6005E01CE /* PBXTargetDependency */,
+			);
+			name = DolfinTests;
+			productName = "Thesis 1ST PrototypeTests";
+			productReference = 6FD49746277C82E6005E01CE /* DolfinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6FD4974F277C82E6005E01CE /* DolfinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FD49760277C82E6005E01CE /* Build configuration list for PBXNativeTarget "DolfinUITests" */;
+			buildPhases = (
+				6FD4974C277C82E6005E01CE /* Sources */,
+				6FD4974D277C82E6005E01CE /* Frameworks */,
+				6FD4974E277C82E6005E01CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FD49752277C82E6005E01CE /* PBXTargetDependency */,
+			);
+			name = DolfinUITests;
+			productName = "Thesis 1ST PrototypeUITests";
+			productReference = 6FD49750277C82E6005E01CE /* DolfinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FD4972E277C82E5005E01CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					6FD49735277C82E5005E01CE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					6FD49745277C82E6005E01CE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 6FD49735277C82E5005E01CE;
+					};
+					6FD4974F277C82E6005E01CE = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 6FD49735277C82E5005E01CE;
+					};
+				};
+			};
+			buildConfigurationList = 6FD49731277C82E5005E01CE /* Build configuration list for PBXProject "Dolfin" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FD4972D277C82E5005E01CE;
+			productRefGroup = 6FD49737277C82E5005E01CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FD49735277C82E5005E01CE /* Dolfin */,
+				6FD49745277C82E6005E01CE /* DolfinTests */,
+				6FD4974F277C82E6005E01CE /* DolfinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FD49734277C82E5005E01CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F30F6682788109B00588D29 /* Poppins-ExtraLight.ttf in Resources */,
+				6F30F66B2788109B00588D29 /* Poppins-Light.ttf in Resources */,
+				6F30F66A2788109B00588D29 /* Poppins-MediumItalic.ttf in Resources */,
+				6F30F66F2788109B00588D29 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				6F30F66E2788109B00588D29 /* Poppins-Regular.ttf in Resources */,
+				6F30F6692788109B00588D29 /* Poppins-Medium.ttf in Resources */,
+				6F30F6672788109B00588D29 /* Poppins-SemiBold.ttf in Resources */,
+				6F30F6652788109B00588D29 /* Poppins-Italic.ttf in Resources */,
+				6F30F66D2788109B00588D29 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				6F30F6702788109B00588D29 /* Poppins-LightItalic.ttf in Resources */,
+				6F2049AD27A8A75200063DC3 /* Launch Screen.storyboard in Resources */,
+				6F30F6662788109B00588D29 /* Poppins-Thin.ttf in Resources */,
+				6F30F66C2788109B00588D29 /* Poppins-ThinItalic.ttf in Resources */,
+				6F30F6712788109B00588D29 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				6FD49741277C82E6005E01CE /* Preview Assets.xcassets in Resources */,
+				6FD4973E277C82E6005E01CE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD49744277C82E6005E01CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6D825827BD4F5400ED9CBA /* Poppins-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD4974E277C82E6005E01CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F6D825927BD4F5800ED9CBA /* Poppins-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FD49732277C82E5005E01CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F30F67627887F2300588D29 /* LogInView.swift in Sources */,
+				6F436AB6278EB41600B0EDB4 /* AddNewGoal.swift in Sources */,
+				6FD4973C277C82E5005E01CE /* ContentView.swift in Sources */,
+				6F1BCEF027A2CB67007162E8 /* SignUpView.swift in Sources */,
+				6FD4979A27802046005E01CE /* ProfileView.swift in Sources */,
+				6FD4973A277C82E5005E01CE /* DolfinApp.swift in Sources */,
+				6F1B354327A1C84C00D2DF91 /* NewProfileView.swift in Sources */,
+				6FD4979C27802055005E01CE /* GoalsView.swift in Sources */,
+				6FDDF0CD27A5A30A006FBFEA /* BalanceEditView.swift in Sources */,
+				6F2049AF27A9EA6E00063DC3 /* ItemsView.swift in Sources */,
+				6F635D0227A347570092271E /* NewTaskView.swift in Sources */,
+				6FD4979E27802063005E01CE /* TasksView.swift in Sources */,
+				6F436AB8278EB84900B0EDB4 /* NewGoalView.swift in Sources */,
+				6FD497A027802070005E01CE /* VaultsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD49742277C82E6005E01CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD4974B277C82E6005E01CE /* Thesis_1ST_PrototypeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD4974C277C82E6005E01CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6FD49748277C82E6005E01CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FD49735277C82E5005E01CE /* Dolfin */;
+			targetProxy = 6FD49747277C82E6005E01CE /* PBXContainerItemProxy */;
+		};
+		6FD49752277C82E6005E01CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6FD49735277C82E5005E01CE /* Dolfin */;
+			targetProxy = 6FD49751277C82E6005E01CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6FD49758277C82E6005E01CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6FD49759277C82E6005E01CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FD4975B277C82E6005E01CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Thesis 1ST Prototype/Preview Content\"";
+				DEVELOPMENT_TEAM = HBRJSM8X9L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Thesis-1ST-Prototype-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dolfin.app;
+				PRODUCT_NAME = Dolfin;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6FD4975C277C82E6005E01CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Thesis 1ST Prototype/Preview Content\"";
+				DEVELOPMENT_TEAM = HBRJSM8X9L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Thesis-1ST-Prototype-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Dolfin.app;
+				PRODUCT_NAME = Dolfin;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6FD4975E277C82E6005E01CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HBRJSM8X9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thesis.Thesis-1ST-PrototypeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dolfin.app/Dolfin";
+			};
+			name = Debug;
+		};
+		6FD4975F277C82E6005E01CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HBRJSM8X9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thesis.Thesis-1ST-PrototypeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dolfin.app/Dolfin";
+			};
+			name = Release;
+		};
+		6FD49761277C82E6005E01CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HBRJSM8X9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thesis.Thesis-1ST-PrototypeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Thesis 1ST Prototype";
+			};
+			name = Debug;
+		};
+		6FD49762277C82E6005E01CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HBRJSM8X9L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thesis.Thesis-1ST-PrototypeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Thesis 1ST Prototype";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FD49731277C82E5005E01CE /* Build configuration list for PBXProject "Dolfin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD49758277C82E6005E01CE /* Debug */,
+				6FD49759277C82E6005E01CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD4975A277C82E6005E01CE /* Build configuration list for PBXNativeTarget "Dolfin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD4975B277C82E6005E01CE /* Debug */,
+				6FD4975C277C82E6005E01CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD4975D277C82E6005E01CE /* Build configuration list for PBXNativeTarget "DolfinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD4975E277C82E6005E01CE /* Debug */,
+				6FD4975F277C82E6005E01CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FD49760277C82E6005E01CE /* Build configuration list for PBXNativeTarget "DolfinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FD49761277C82E6005E01CE /* Debug */,
+				6FD49762277C82E6005E01CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FD4972E277C82E5005E01CE /* Project object */;
+}
